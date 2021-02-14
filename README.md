@@ -4,7 +4,7 @@ Tensorflow implementation of badminton serving machine parameter predictions usi
 ## Paper
 **Training a Group of Badminton Serving Machines to Reproduce a Rally (Work in Progress)**  
 Yu-Fu Wu, Huang-Yi Cheng, Yun-Tang Lin, Jen-Jee Chen, Ting-Hui Chiang, Yu-Chee Tseng  
-ICPAI 2020 [IEEE pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9302654)
+[ICPAI 2020 (IEEE pdf)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9302654)
 
 ## Requirements
 This code was tested with Tensorflow 1.13.1, CUDA 10.0 and Ubuntu 16.04.  
