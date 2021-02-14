@@ -2,19 +2,13 @@
 Tensorflow implementation of badminton serving machine parameter predictions using AI models.
 
 ## Paper
-**Training a Group of Badminton Serving Machines to Reproduce a Rally (Work in Progress)**
-
-Yu-Fu Wu, Huang-Yi Cheng, Yun-Tang Lin, Jen-Jee Chen, Ting-Hui Chiang, Yu-Chee Tseng
-ICPAI 2020
-
-For more details:
-
-[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9302654)
+**Training a Group of Badminton Serving Machines to Reproduce a Rally (Work in Progress)**  
+Yu-Fu Wu, Huang-Yi Cheng, Yun-Tang Lin, Jen-Jee Chen, Ting-Hui Chiang, Yu-Chee Tseng  
+ICPAI 2020 [IEEE pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9302654)
 
 ## Requirements
-This code was tested with Tensorflow 1.13.1, CUDA 10.0 and Ubuntu 16.04.
-
-Packages install:
+This code was tested with Tensorflow 1.13.1, CUDA 10.0 and Ubuntu 16.04.  
+Packages installation:  
 ```shell
 pip install pydot==1.2.3
 apt install graphviz
@@ -36,7 +30,7 @@ We provide several models for training. You can choose one of the following mode
 You can monitor the learning process using `tensorboard` and pointing it to your chosen `logs`.
 
 ## Testing
-We provide a single model (LSTM model). You can try it by runnung `lstm_regression_rmse.ipynb` and uncomment by following:
+We provide a single model (LSTM model). You can try it by runnung `lstm_regression_rmse.ipynb` and uncomment by following:  
 ```python
 # Load model
 model_dir = "models/20201216_lstm-rmse-position5-trajectory3-all-diff-euclidean-32-8-batchsize128-relu-epoch1000/"
